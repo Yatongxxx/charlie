@@ -1,16 +1,11 @@
 /* main for Charlie */
 <html>
-<head>
 <style type="text/css"
-.section1{align-items: center}
-body 
-     {font-family: Futura,sans-serif;
-     color: darkgrey}
+{}{}
 body 
      {font-family: futura,sans-serif;
-      font-weight: lighter;
       color: darkgrey;
-      background-color: floralwhite;
+      background-color: white;
       border: 50px solid white ;
       padding: 35px;
       }
