@@ -2,16 +2,64 @@
 <html>
 <style type="text/css"
 {}{}
+.button {
+  display: inline-block;
+  border-radius: 4px;;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 50px;
+  width:100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 6px;
+  float: right
+}
+.button {
+    background-color: white;
+    color: black;
+}
+
+.button:hover {background-color: #99da7a;}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+    background-color: #99da7a
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 body 
      {font-family: chalkboard,sans-serif;
       font-weight: lighter;
       color: darkgrey;
       background-color: white;
-      text-align: center;
       }
 h1 
      {background-color: #D0E6A5;
-    color: darkslategrey;
+    color: darkslategrey; 
+    border-radius: 25px 5px 25px 25px; 
+    width:auto;
+    height: 40px;    
 }
 h2 
       {color: dimgrey}
