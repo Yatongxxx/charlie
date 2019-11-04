@@ -3,9 +3,11 @@
 <style type="text/css"
 {}{}
 body 
-     {font-family: futura,sans-serif;
+     {font-family: chalkboard,sans-serif;
+      font-weight: lighter;
       color: darkgrey;
       background-color: white;
+      text-align: center;
       }
 h1 
      {background-color: #D0E6A5;
