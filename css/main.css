@@ -10,8 +10,7 @@ img {align-items: center}
   border: none;
   color: black;
   text-align: center;
-  font-size: 16px;
-  padding: px;
+  font-size: 11px;
   width:100px;
   transition: all 0.5s;
   cursor: pointer;
@@ -24,7 +23,7 @@ img {align-items: center}
     float: bottom;
 }
 
-.button:hover {background-color: snow;
+.button:hover {background-color: #F6D0B1;
 }
 
 .button span {
@@ -55,21 +54,26 @@ img {align-items: center}
     display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
-background-color: snow;;
-margin: 1rem;
+background-color: seashell;
 border-radius: 5px;}
+.basic{
+    background-image: url(img/basic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
 body 
-     {font-family: avenir,sans-serif;
+     {margin: 2rem;
+         font-family: avenir,sans-serif;
       font-weight: lighter;
       color: dimgrey;
       background-color: white;
       }
 h1 
-     {   left: 30px;
-         font-family: Avenir,sans-serif;
+     { font-family: Avenir,sans-serif;
          font-size: 21pt;
-         background-color: #D0E6A5;
-    color: darkslategrey; 
+         background-color: #638475;
+    color: moccasin; 
     border-radius: 25px 5px 25px 25px; 
     width:auto;
     height: 40px;    
