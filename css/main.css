@@ -52,12 +52,11 @@
     display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
-background-color: snow;
-color:#444;
+background-color: snow;;
 margin: 1rem;
 border-radius: 5px;}
 body 
-     {font-family: chalkboard,sans-serif;
+     {font-family: futura,sans-serif;
       font-weight: lighter;
       color: darkgrey;
       background-color: white;
@@ -73,7 +72,10 @@ h1
     height: 40px;    
 }
 h2 
-      {color: dimgrey}
+      {font-family: Avenir,sans-serif;
+          color: dimgrey}
+h3{font-family: avenir,sans-serif}
+.img
 .table {float: inherit}
 </style>
 </head>
