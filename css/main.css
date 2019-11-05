@@ -48,6 +48,8 @@ img {align-items: center}
   opacity: 1;
   right: 0;
 }
+.container{margin-top: 40px;
+}
 h1 {
   color: #fff;
 }
