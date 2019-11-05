@@ -1,7 +1,6 @@
 /* main for Charlie */
 <html>
 <style type="text/css"
-{}{}
 .button {
   display: inline-block;
   border-radius: 4px;;
@@ -9,30 +8,31 @@
   color: black;
   text-align: center;
   font-size: 16px;
-  padding: 50px;
-  width:100px;
+  padding: 10px;
+  width:80px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 6px;
-  float: right
+  float:right;
 }
 .button {
     background-color: white;
     color: black;
+    float: bottom;
 }
 
-.button:hover {background-color: #99da7a;}
+.button:hover {background-color: snow;
+}
 
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-    background-color: #99da7a
 }
 
 .button span:after {
-  content: '»';
+  content: '<';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -48,14 +48,23 @@
   opacity: 1;
   right: 0;
 }
+.wrapper{
+    display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+background-color: seashell;
+color:#444;
+border-radius: 20px;}
 body 
      {font-family: chalkboard,sans-serif;
       font-weight: lighter;
       color: darkgrey;
       background-color: white;
       }
+
 h1 
-     {background-color: #D0E6A5;
+     {font-size: 22pt;
+         background-color: #D0E6A5;
     color: darkslategrey; 
     border-radius: 25px 5px 25px 25px; 
     width:auto;
