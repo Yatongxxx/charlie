@@ -1,18 +1,21 @@
 /* main for Charlie */
 <html>
-<style type="text/css"
+<style type="text/css">
+img {align-items: center}
 .button {
+    border-top-width: 50px;
+    font-family: avenir,sans-serif;
   display: inline-block;
   border-radius: 4px;;
   border: none;
   color: black;
   text-align: center;
   font-size: 16px;
-  padding: 10px;
-  width:80px;
+  padding: px;
+  width:100px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 6px;
+  margin: 9px;
   float:right;
 }
 .button {
@@ -56,13 +59,13 @@ background-color: snow;;
 margin: 1rem;
 border-radius: 5px;}
 body 
-     {font-family: futura,sans-serif;
+     {font-family: avenir,sans-serif;
       font-weight: lighter;
-      color: darkgrey;
+      color: dimgrey;
       background-color: white;
       }
 h1 
-     {
+     {   left: 30px;
          font-family: Avenir,sans-serif;
          font-size: 21pt;
          background-color: #D0E6A5;
@@ -73,7 +76,7 @@ h1
 }
 h2 
       {font-family: Avenir,sans-serif;
-          color: dimgrey}
+          color: black}
 h3{font-family: avenir,sans-serif}
 .img
 .table {float: inherit}
