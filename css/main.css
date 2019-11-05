@@ -10,7 +10,7 @@ img {align-items: center}
   border: none;
   color: black;
   text-align: center;
-  font-size: 11px;
+  font-size: 8px;
   width:100px;
   transition: all 0.5s;
   cursor: pointer;
@@ -73,7 +73,7 @@ h1
      { font-family: Avenir,sans-serif;
          font-size: 21pt;
          background-color: #638475;
-    color: moccasin; 
+    color: snow;
     border-radius: 25px 5px 25px 25px; 
     width:auto;
     height: 40px;    
