@@ -11,10 +11,9 @@ img {align-items: center}
   color: black;
   text-align: center;
   font-size: 8px;
-  width:100px;
+  width:95px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 9px;
   float:right;
 }
 .button {
@@ -38,7 +37,7 @@ img {align-items: center}
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -5px;
   transition: 0.5s;
 }
 
@@ -50,18 +49,26 @@ img {align-items: center}
   opacity: 1;
   right: 0;
 }
+.container {
+  background-image: url('https://picsum.photos/id/365/800/800');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+h1 {
+  color: #fff;
+}
 .wrapper{
     display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
 background-color: seashell;
 border-radius: 5px;}
-.basic{
-    background-image: url(img/basic.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 15px;
-}
+
+
 body 
      {margin: 2rem;
          font-family: avenir,sans-serif;
@@ -74,7 +81,7 @@ h1
          font-size: 21pt;
          background-color: #638475;
     color: snow;
-    border-radius: 25px 5px 25px 25px; 
+    border-radius: 5px 5px 50px 5px; 
     width:auto;
     height: 40px;    
 }
@@ -84,6 +91,13 @@ h2
 h3{font-family: avenir,sans-serif}
 .img
 .table {float: inherit}
+.container {
+  padding: 3rem;
+}
+p {
+  letter-spacing: 1px;
+  line-height: 1.65;
+}
 </style>
 </head>
 </body>
