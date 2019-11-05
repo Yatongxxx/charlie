@@ -11,7 +11,7 @@ img {align-items: center}
   color: black;
   text-align: center;
   font-size: 8px;
-  width:95px;
+  width:px;
   transition: all 0.5s;
   cursor: pointer;
   float:right;
@@ -49,15 +49,6 @@ img {align-items: center}
   opacity: 1;
   right: 0;
 }
-.container {
-  background-image: url('https://picsum.photos/id/365/800/800');
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-}
-
 h1 {
   color: #fff;
 }
@@ -89,15 +80,10 @@ h2
       {font-family: Avenir,sans-serif;
           color: black}
 h3{font-family: avenir,sans-serif}
-.img
-.table {float: inherit}
-.container {
-  padding: 3rem;
-}
-p {
-  letter-spacing: 1px;
-  line-height: 1.65;
-}
+p5{font-size: 8pt}
+p6{font-weight: 300}
+
+
 </style>
 </head>
 </body>
